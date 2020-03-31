@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-classificateFace = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-classificateEye = cv2.CascadeClassifier("haarcascade_eye.xml")
+classificateFace = cv2.CascadeClassifier("haar/haarcascade_frontalface_default.xml")
+classificateEye = cv2.CascadeClassifier("haar/haarcascade_eye.xml")
 
 camera = cv2.VideoCapture(1)
 amostra = 1
